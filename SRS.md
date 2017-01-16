@@ -50,15 +50,15 @@
 --
 
 # 1. Introduction
-   The following subsections of the Software Requirements Specifications (SRS) document should provide an overview of the entire SRS.   The thing to keep in mind as you write this document is that you are telling what the system must do ?so that designers can ultimately build it.  Do not use this document for design!!!
+ The following subsections of the Software Requirements Specifications (SRS) document should provide an overview of the entire SRS.   The thing to keep in mind as you write this document is that you are telling what the system must do ?so that designers can ultimately build it.  Do not use this document for design!!!
 
 ## 	1.1 Purpose
 
-   Identify the purpose of this SRS and its intended audience. In this subsection, describe the purpose of the particular SRS and specify the intended audience for the SRS.
+ Identify the purpose of this SRS and its intended audience. In this subsection, describe the purpose of the particular SRS and specify the intended audience for the SRS.
 
 ## 	1.2 Scope
 
-In this subsection:
+	In this subsection:
 		Identify the software product(s) to be produced by name
 		Explain what the software product(s) will, and, if necessary, will not do
 		Describe the application of the software being specified, including relevant benefits, objectives, and goals
@@ -67,7 +67,7 @@ In this subsection:
 
 ## 	1.3 Definitions, Acronyms, and Abbreviations
 
-	Provide the definitions of all terms, acronyms, and abbreviations required to properly interpret the SRS.  This information may be provided by reference to one or more appendices in the SRS or by reference to documents. This information may be provided by reference to an Appendix.
+ Provide the definitions of all terms, acronyms, and abbreviations required to properly interpret the SRS.  This information may be provided by reference to one or more appendices in the SRS or by reference to documents. This information may be provided by reference to an Appendix.
 
 ## 	1.4 References
 
@@ -87,19 +87,19 @@ In this subsection:
 
 # 2 The Overall Description
 
-	Describe the general factors that affect the product and its requirements.  This section does not state specific requirements.  Instead, it provides a background for those requirements, which are defined in section 3, and makes them easier to understand. In a sense, this section tells the requirements in plain English for the consumption of the customer.  Section3 will contain a specification written for the developers.
+ Describe the general factors that affect the product and its requirements.  This section does not state specific requirements.  Instead, it provides a background for those requirements, which are defined in section 3, and makes them easier to understand. In a sense, this section tells the requirements in plain English for the consumption of the customer.  Section3 will contain a specification written for the developers.
 
 ## 	2.1  Product Perspective
 
-	Put the product into perspective with other related products.   If the product is independent and totally self-contained, it should be so stated here.  If the SRS defines a product that is a component of a larger system, as frequently occurs, then this subsection relates the requirements of the larger system to functionality of the software and identifies interfaces between that system and the software.  If you are building a real system,compare its similarity and differences to other systems in the marketplace.  If you are doing a research-oriented project, what related research compares to the system you are planning to build.
+ Put the product into perspective with other related products.   If the product is independent and totally self-contained, it should be so stated here.  If the SRS defines a product that is a component of a larger system, as frequently occurs, then this subsection relates the requirements of the larger system to functionality of the software and identifies interfaces between that system and the software.  If you are building a real system,compare its similarity and differences to other systems in the marketplace.  If you are doing a research-oriented project, what related research compares to the system you are planning to build.
 
-	A block diagram showing the major components of the larger system, interconnections, and external interfaces can be helpful.  This is not a design or architecture picture.  It is more to provide context, especially if your system will interact with external actors.  The system you are building should be shown as a black box.  Let the design document present the internals.
+ A block diagram showing the major components of the larger system, interconnections, and external interfaces can be helpful.  This is not a design or architecture picture.  It is more to provide context, especially if your system will interact with external actors.  The system you are building should be shown as a black box.  Let the design document present the internals.
 
-	The following subsections describe how the software operates inside various constraints.
+ The following subsections describe how the software operates inside various constraints.
 
 ### 		2.1.1 System Interfaces
 
-	List each system interface and identify the functionality of the software to accomplish the system requirement and the interface description to match the system.  These are external systems that you have to interact with.  For instance, if you are building a business application that interfaces with the existing employee payroll system, what is the API to that system that designer’s will need to use?
+ List each system interface and identify the functionality of the software to accomplish the system requirement and the interface description to match the system.  These are external systems that you have to interact with.  For instance, if you are building a business application that interfaces with the existing employee payroll system, what is the API to that system that designer’s will need to use?
 
 ### 		2.1.2 Interfaces
 
@@ -111,7 +111,7 @@ In this subsection:
 	
 ### 		2.1.3 Hardware Interfaces
 
-	Specify the logical characteristics of each interface between the software product and the hardware components of the system.  This includes configuration characteristics.  It also covers such matters as what devices are to be supported, how they are to be supported and protocols.  This is not a description of hardware requirements in the sense that “This program must run on a Mac with 64M of RAM”.  This section is for detailing the actual hardware devices your application will interact with and control.  For instance, if you are controlling X10 type home devices, what is the interface to those devices?  Designers should be able to look at this and know what hardware they need to worry about in the design.  Many business type applications will have no hardware interfaces.  If none, just state “The system has no hardware interface requirements”  If you just delete sections that are not applicable, then readers do not know if:  a. this does not apply or b.  you forgot to include the section in the first place. 
+ Specify the logical characteristics of each interface between the software product and the hardware components of the system.  This includes configuration characteristics.  It also covers such matters as what devices are to be supported, how they are to be supported and protocols.  This is not a description of hardware requirements in the sense that “This program must run on a Mac with 64M of RAM”.  This section is for detailing the actual hardware devices your application will interact with and control.  For instance, if you are controlling X10 type home devices, what is the interface to those devices?  Designers should be able to look at this and know what hardware they need to worry about in the design.  Many business type applications will have no hardware interfaces.  If none, just state “The system has no hardware interface requirements”  If you just delete sections that are not applicable, then readers do not know if:  a. this does not apply or b.  you forgot to include the section in the first place. 
 
 ### 		2.1.4 Software Interfaces
 
@@ -134,11 +134,11 @@ In this subsection:
 	 
 ### 		2.1.5 Communications Interfaces
 
-	Specify the various interfaces to communications such as local network protocols, etc.  These are protocols you will need to directly interact with.  If you happen to use web services transparently to your application then do not list it here.  If you are using a custom protocol to communicate between systems, then document that protocol here so designers know what to design.  If it is a standard protocol, you can reference an existing document or RFC.
+ Specify the various interfaces to communications such as local network protocols, etc.  These are protocols you will need to directly interact with.  If you happen to use web services transparently to your application then do not list it here.  If you are using a custom protocol to communicate between systems, then document that protocol here so designers know what to design.  If it is a standard protocol, you can reference an existing document or RFC.
 
 ### 		2.1.6 Memory Constraints
 
-	Specify any applicable characteristics and limits on primary and secondary memory. Don’t just make up something here.  If all the customer’s machines have only 128K of RAM, then your target design has got to come in under 128K so there is an actual requirement.  You could also cite market research here for shrink-wrap type applications “Focus groups have determined that our target market has between 256-512M of RAM, therefore the design footprint should not exceed 256M.”  If there are no memory constraints, so state.
+ Specify any applicable characteristics and limits on primary and secondary memory. Don’t just make up something here.  If all the customer’s machines have only 128K of RAM, then your target design has got to come in under 128K so there is an actual requirement.  You could also cite market research here for shrink-wrap type applications “Focus groups have determined that our target market has between 256-512M of RAM, therefore the design footprint should not exceed 256M.”  If there are no memory constraints, so state.
 
 ### 		2.1.7 Operations
 
@@ -195,17 +195,17 @@ In this subsection:
 	
 ## 	2.5 Assumptions and Dependencies
 
-	List each of the factors that affect the requirements stated in the SRS.  These factors are not design constraints on the software but are, rather, any changes to them that can affect the requirements in the SRS.  For example, an assumption might be that a specific operating system would be available on the hardware designated for the software product.  If, in fact, the operating system were not available, the SRS would then have to change accordingly.
+ List each of the factors that affect the requirements stated in the SRS.  These factors are not design constraints on the software but are, rather, any changes to them that can affect the requirements in the SRS.  For example, an assumption might be that a specific operating system would be available on the hardware designated for the software product.  If, in fact, the operating system were not available, the SRS would then have to change accordingly.
 
-	This section is catch-all for everything else that might influence the design of the system and that did not fit in any of the categories above.
+ This section is catch-all for everything else that might influence the design of the system and that did not fit in any of the categories above.
 	
 ## 	2.6 Apportioning of Requirements
 
-	Identify requirements that may be delayed until future versions of the system.  After you look at the project plan and hours available, you may realize that you just cannot get everything done.  This section divides the requirements into different sections for development and delivery.  Remember to check with the customer ? they should prioritize the requirements and decide what does and does not get done.  This can also be useful if you are using an iterative life cycle model to specify which requirements will map to which interation.
+ Identify requirements that may be delayed until future versions of the system.  After you look at the project plan and hours available, you may realize that you just cannot get everything done.  This section divides the requirements into different sections for development and delivery.  Remember to check with the customer ? they should prioritize the requirements and decide what does and does not get done.  This can also be useful if you are using an iterative life cycle model to specify which requirements will map to which interation.
 
 # 3. Specific Requirements  
 
-	This section contains all the software requirements at a level of detail sufficient to enable designers to design a system to satisfy those requirements, and testers to test that the system satisfies those requirements.  Throughout this section, every stated requirement should be externally perceivable by users, operators, or other external systems.  These requirements should include at a minimum a description of every input (stimulus) into the system, every output (response) from the system and all functions performed by the system in response to an input or in support of an output. The following principles apply:
+ This section contains all the software requirements at a level of detail sufficient to enable designers to design a system to satisfy those requirements, and testers to test that the system satisfies those requirements.  Throughout this section, every stated requirement should be externally perceivable by users, operators, or other external systems.  These requirements should include at a minimum a description of every input (stimulus) into the system, every output (response) from the system and all functions performed by the system in response to an input or in support of an output. The following principles apply:
 
 	(1)	Specific requirements should be stated with all the characteristics of a good SRS
 		-	correct
