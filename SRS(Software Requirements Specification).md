@@ -1,56 +1,56 @@
 # Table of Contents
 
-	1. Introduction
+[]	1. Introduction
 		1.1. Purpose
 		1.2. Scope
 		1.3. Definitions, Acronyms, and Abbreviations
 		1.4. References
 		1.5. Overview
 	
-2. The Overall Description
-	2.1. Product Perspective
-		2.1.1. System Interfaces
-		2.1.2. Interfaces
-		2.1.3. Hardware Interfaces
-		2.1.4. Software Interfaces
-		2.1.5. Communications Interfaces
-		2.1.6. Memory Constraints
-		2.1.7. Operations
-		2.1.8. Site Adaptation Requirements
-	2.2. Product Functions
-	2.3. User Characteristics
-	2.4. Constraints
-	2.5. Assumptions and Dependencies
-	2.6. Apportioning of Requirements
-	
-3. Specific Requirements
-	3.1. External interfaces
-	3.2. Functions
-	3.3. Performance Requirements
-	3.4. Logical Database Requirements
-	3.5. Design Constraints
-		3.5.1. Standards Compliance
-	3.6. Software System Attributes
-		3.6.1. Reliability
-		3.6.2. Availability
-		3.6.3. Security
-		3.6.4. Maintainability
-		3.6.5. Portability
-	3.7. Organizing the Specific Requirements
-		3.7.1. System Mode
-		3.7.2. User Class
-		3.7.3. Objects
-		3.7.4. Feature
-		3.7.5. Stimulus
-		3.7.6. Response
-		3.7.7. Functional Hierarchy
-	3.8. Additional Comments
-	
-4. Change Management Process
+	2. The Overall Description
+		2.1. Product Perspective
+			2.1.1. System Interfaces
+			2.1.2. Interfaces
+			2.1.3. Hardware Interfaces
+			2.1.4. Software Interfaces
+			2.1.5. Communications Interfaces
+			2.1.6. Memory Constraints
+			2.1.7. Operations
+			2.1.8. Site Adaptation Requirements
+		2.2. Product Functions
+		2.3. User Characteristics
+		2.4. Constraints
+		2.5. Assumptions and Dependencies
+		2.6. Apportioning of Requirements
 
-5. Document Approvals
+	3. Specific Requirements
+		3.1. External interfaces
+		3.2. Functions
+		3.3. Performance Requirements
+		3.4. Logical Database Requirements
+		3.5. Design Constraints
+			3.5.1. Standards Compliance
+		3.6. Software System Attributes
+			3.6.1. Reliability
+			3.6.2. Availability
+			3.6.3. Security
+			3.6.4. Maintainability
+			3.6.5. Portability
+		3.7. Organizing the Specific Requirements
+			3.7.1. System Mode
+			3.7.2. User Class
+			3.7.3. Objects
+			3.7.4. Feature
+			3.7.5. Stimulus
+			3.7.6. Response
+			3.7.7. Functional Hierarchy
+		3.8. Additional Comments
 
-6. Supporting Information
+	4. Change Management Process
+
+	5. Document Approvals
+
+	6. Supporting Information
 
 --
 
