@@ -91,7 +91,7 @@
 
 	Don’t rehash the table of contents here.  Point people to the parts of the document they are most concerned with.  Customers/potential users care about section 2, developers care about section 3.
 
-2.  The Overall Description
+2  The Overall Description
 
 	Describe the general factors that affect the product and its requirements.  This section does not state specific requirements.  Instead, it provides a background for those requirements, which are defined in section 3, and makes them easier to understand. In a sense, this section tells the requirements in plain English for the consumption of the customer.  Section3 will contain a specification written for the developers.
 
