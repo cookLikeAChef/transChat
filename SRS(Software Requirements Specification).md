@@ -1,12 +1,5 @@
 # Table of Contents
-<ol type="1">
-<li>test1</li>
-<ol type="1">
-<li>test1.1</li>
-<li>test1.2</li>
-</ol>
-<li>test2</li>
-</ol>
+
 1. Introduction
 	1. Purpose
 	2. Scope
