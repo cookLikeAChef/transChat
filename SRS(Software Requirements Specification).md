@@ -1,8 +1,8 @@
 # Table of Contents
 
 1. Introduction
-	1.1 Purpose
-	1.2 Scope
+	1. Purpose
+	2. Scope
 	3. Definitions, Acronyms, and Abbreviations
 	4. References
 	5. Overview
@@ -58,7 +58,7 @@
 
 	The following subsections of the Software Requirements Specifications (SRS) document should provide an overview of the entire SRS.   The thing to keep in mind as you write this document is that you are telling what the system must do ?so that designers can ultimately build it.  Do not use this document for design!!!
 
-## 1.1 Purpose
+## 	1. Purpose
 
 	Identify the purpose of this SRS and its intended audience. In this subsection, describe the purpose of the particular SRS and specify the intended audience for the SRS.
 
