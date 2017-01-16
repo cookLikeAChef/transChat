@@ -213,14 +213,14 @@
 	This section contains all the software requirements at a level of detail sufficient to enable designers to design a system to satisfy those requirements, and testers to test that the system satisfies those requirements.  Throughout this section, every stated requirement should be externally perceivable by users, operators, or other external systems.  These requirements should include at a minimum a description of every input (stimulus) into the system, every output (response) from the system and all functions performed by the system in response to an input or in support of an output. The following principles apply:
 
 	(1)	Specific requirements should be stated with all the characteristics of a good SRS
-		*	correct
-		*	unambiguous
-		*	complete
-		*	consistent
-		*	ranked for importance and/or stability
-		*	verifiable
-		*	modifiable
-		*	traceable
+		-	correct
+		-	unambiguous
+		-	complete
+		-	consistent
+		-	ranked for importance and/or stability
+		-	verifiable
+		-	modifiable
+		-	traceable
 	(2)	Specific requirements should be cross-referenced to earlier documents that relate
 	(3)	All requirements should be uniquely identifiable (usually via numbering like 3.1.2.3)
 	(4)	Careful attention should be given to organizing the requirements to maximize readability (Several alternative organizations are given at end of document)
@@ -242,34 +242,34 @@
 
 	It contains both content and format as follows:
 
-		*	Name of item
-		*	Description of purpose
-		*	Source of input or destination of output
-		*	Valid range, accuracy and/or tolerance
-		*	Units of measure
-		*	Timing
-		*	Relationships to other inputs/outputs
-		*	Screen formats/organization
-		*	Window formats/organization
-		*	Data formats
-		*	Command formats
-		*	End messages
+		-	Name of item
+		-	Description of purpose
+		-	Source of input or destination of output
+		-	Valid range, accuracy and/or tolerance
+		-	Units of measure
+		-	Timing
+		-	Relationships to other inputs/outputs
+		-	Screen formats/organization
+		-	Window formats/organization
+		-	Data formats
+		-	Command formats
+		-	End messages
 
 ## 	3.2 Functions
 
 	Functional requirements define the fundamental actions that must take place in the software in accepting and processing the inputs and in processing and generating the outputs.  These are generally listed as “shall” statements starting with "The system shall…  
 
 	These include:
-		*	Validity checks on the inputs
-		*	Exact sequence of operations
-		*	Responses to abnormal situation, including
-		*	Overflow
-		*	Communication facilities
-		*	Error handling and recovery
-		*	Effect of parameters
-		*	Relationship of outputs to inputs, including
-		*	Input/Output sequences
-		*	Formulas for input to output conversion
+		-	Validity checks on the inputs
+		-	Exact sequence of operations
+		-	Responses to abnormal situation, including
+		-	Overflow
+		-	Communication facilities
+		-	Error handling and recovery
+		-	Effect of parameters
+		-	Relationship of outputs to inputs, including
+		-	Input/Output sequences
+		-	Formulas for input to output conversion
 
 
 	It may be appropriate to partition the functional requirements into sub-functions or sub-processes.  This does not imply that the software design will also be partitioned that way.
@@ -297,12 +297,12 @@
 ## 	3.4 Logical Database Requirements
 
 	This section specifies the logical requirements for any information that is to be placed into a database.  This may include:
-		*	Types of information used by various functions
-		*	Frequency of use
-		*	Accessing capabilities
-		*	Data entities and their relationships
-		*	Integrity constraints
-		*	Data retention requirements
+		-	Types of information used by various functions
+		-	Frequency of use
+		-	Accessing capabilities
+		-	Data entities and their relationships
+		-	Integrity constraints
+		-	Data retention requirements
 
 	If the customer provided you with data models, those can be presented here.  ER diagrams (or static class diagrams) can be useful here to show complex data relationships.  Remember a diagram is worth a thousand words of confusing text.
 
@@ -337,11 +337,11 @@
 ### 		3.6.3 Security
 
 	Specify the factors that would protect the software from accidental or malicious access, use, modification, destruction, or disclosure.  Specific requirements in this area could include the need to:
-		*	Utilize certain cryptographic techniques
-		*	Keep specific log or history data sets
-		*	Assign certain functions to different modules
-		*	Restrict communications between some areas of the program
-		*	Check data integrity for critical variables
+		-	Utilize certain cryptographic techniques
+		-	Keep specific log or history data sets
+		-	Assign certain functions to different modules
+		-	Restrict communications between some areas of the program
+		-	Check data integrity for critical variables
 
 ### 		3.6.4 Maintainability
 
@@ -350,11 +350,11 @@
 ### 		3.6.5 Portability
 
 	Specify attributes of software that relate to the ease of porting the software to other host machines and/or operating systems.  This may include:
-		*	Percentage of components with host-dependent code
-		*	Percentage of code that is host dependent
-		*	Use of a proven portable language
-		*	Use of a particular compiler or language subset
-		*	Use of a particular operating system
+		-	Percentage of components with host-dependent code
+		-	Percentage of code that is host dependent
+		-	Use of a proven portable language
+		-	Use of a particular compiler or language subset
+		-	Use of a particular operating system
 
 	Once the relevant characteristics are selected, a subsection should be written for each, explaining the rationale for including this characteristic and how it will be tested and measured.  A chart like this might be used to identify the key characteristics (rating them High or Medium), then identifying which are preferred when trading off design or implementation decisions (with the ID of the preferred one indicated in the chart to the right).  The chart below is optional (it can be confusing) and is for demonstrating tradeoff analysis between different non-functional requirements.  H/M/L  is the relative priority of that non-functional requirement.
 
@@ -375,14 +375,14 @@
 
 	Definitions of the quality characteristics not defined in the paragraphs above follow.
 
-		*	Correctness - extent to which program satisfies specifications, fulfills user’s mission objectives
-		*	Efficiency - amount of computing resources and code required to perform function
-		*	Flexibility - effort needed to modify operational program
-		*	Interoperability - effort needed to couple one system with another
-		*	Reliability - extent to which program performs with required precision
-		*	Reusability - extent to which it can be reused in another application
-		*	Testability - effort needed to test to ensure performs as intended
-		*	Usability - effort required to learn, operate, prepare input, and interpret output
+		-	Correctness - extent to which program satisfies specifications, fulfills user’s mission objectives
+		-	Efficiency - amount of computing resources and code required to perform function
+		-	Flexibility - effort needed to modify operational program
+		-	Interoperability - effort needed to couple one system with another
+		-	Reliability - extent to which program performs with required precision
+		-	Reusability - extent to which it can be reused in another application
+		-	Testability - effort needed to test to ensure performs as intended
+		-	Usability - effort required to learn, operate, prepare input, and interpret output
 
 	THE FOLLOWING (3.7) is not really a section, it is talking about how to organize requirements you write in section 3.2.   At the end of this template there are a bunch of alternative organizations for section 3.2. Choose the ONE best for the system you are writing the requirements for. 
 	
@@ -437,9 +437,9 @@
 # 6. Supporting Information
 
 	The supporting information makes the SRS easier to use.  It includes:
-		*	Table of Contents
-		*	Index
-		*	Appendices
+		-	Table of Contents
+		-	Index
+		-	Appendices
 
 	The Appendices are not always considered part of the actual requirements specification and are not always necessary.  They may include:
 
