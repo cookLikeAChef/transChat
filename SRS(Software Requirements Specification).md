@@ -359,20 +359,20 @@
 
 	Once the relevant characteristics are selected, a subsection should be written for each, explaining the rationale for including this characteristic and how it will be tested and measured.  A chart like this might be used to identify the key characteristics (rating them High or Medium), then identifying which are preferred when trading off design or implementation decisions (with the ID of the preferred one indicated in the chart to the right).  The chart below is optional (it can be confusing) and is for demonstrating tradeoff analysis between different non-functional requirements.  H/M/L  is the relative priority of that non-functional requirement.
 
-	|ID|Characteristic|H/M/L|1|2|3|4|5|6|7|8|9|10|11|12|
-	|---|:--------:|:-----:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|--:|
-	|1|Correctness||||||||||||||
-	|2|Efficiency||||||||||||||
-	|3|Flexibility||||||||||||||
-	|4|Integrity/Security||||||||||||||
-	|5|Interoperability||||||||||||||
-	|6|Maintainability||||||||||||||
-	|7|Portability||||||||||||||
-	|8|Reliability||||||||||||||
-	|9|Reusability||||||||||||||
-	|10|Testability||||||||||||||
-	|11|Usability||||||||||||||
-	|12|Availability||||||||||||||
+|ID|Characteristic|H/M/L|1|2|3|4|5|6|7|8|9|10|11|12|
+|---|:--------:|:-----:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|--:|
+|1|Correctness||||||||||||||
+|2|Efficiency||||||||||||||
+|3|Flexibility||||||||||||||
+|4|Integrity/Security||||||||||||||
+|5|Interoperability||||||||||||||
+|6|Maintainability||||||||||||||
+|7|Portability||||||||||||||
+|8|Reliability||||||||||||||
+|9|Reusability||||||||||||||
+|10|Testability||||||||||||||
+|11|Usability||||||||||||||
+|12|Availability||||||||||||||
 
 	Definitions of the quality characteristics not defined in the paragraphs above follow.
 
