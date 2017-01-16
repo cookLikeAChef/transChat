@@ -5,7 +5,8 @@
 - [ ]	________1.2. Scope
 - [ ]	________1.3. Definitions, Acronyms, and Abbreviations
 - [ ]	________1.4. References
-- [ ]	________1.5. Overview  <p><p>
+- [ ]	________1.5. Overview<p><p>
+
 - [ ]	2. The Overall Description
 - [ ]	________2.1. Product Perspective
 - [ ]	________________2.1.1. System Interfaces
@@ -21,7 +22,6 @@
 - [ ]	________2.4. Constraints
 - [ ]	________2.5. Assumptions and Dependencies
 - [ ]	________2.6. Apportioning of Requirements  
-  
 - [ ]	3. Specific Requirements
 - [ ]	________3.1. External interfaces
 - [ ]	________3.2. Functions
