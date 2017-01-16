@@ -1,6 +1,6 @@
 # Table of Contents
 
-- [x]	1. Introduction
+- [ ]	1. Introduction
 - [ ]	________1.1. Purpose
 - [ ]	________1.2. Scope
 - [ ]	________1.3. Definitions, Acronyms, and Abbreviations
