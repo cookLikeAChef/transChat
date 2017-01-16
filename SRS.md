@@ -22,24 +22,24 @@
 - [ ]	________2.5. Assumptions and Dependencies
 - [ ]	________2.6. Apportioning of Requirements  
 - [ ]	3. Specific Requirements
-- [ ]	________3.1. External interfaces
+- [ ]	________3.1. External Interfaces
 - [ ]	________________3.1.1. User Interfaces
-- [ ]	________________3.1.2. Hardware interfaces
-- [ ]	________________3.1.3. Software interfaces
-- [ ]	________________3.1.4. Communications interfaces
+- [ ]	________________3.1.2. Hardware Interfaces
+- [ ]	________________3.1.3. Software Interfaces
+- [ ]	________________3.1.4. Communications Interfaces
 - [ ]	________3.2 Use Case Descriptions
 - [ ]	________________3.2.1 Use Case 1
 - [ ]	________________3.2.1 Use Case 2
 - [ ]	________________3.2.1 Use Case n
 - [ ]	________3.3. Performance Requirements
 - [ ]	________3.4. Design Constraints
-- [ ]	________3.5. Software system attributes
+- [ ]	________3.5. Software System Attributes
 - [ ]	________________3.5.1. Reliability
 - [ ]	________________3.5.2. Availability
 - [ ]	________________3.5.3. Security
 - [ ]	________________3.5.4. Maintainability
 - [ ]	________________3.5.5. Portability
-- [ ]	________3.6. Other requirements
+- [ ]	________3.6. Other Requirements
 - [ ]	4. Change Management Process
 - [ ]	5. Document Approvals  
 - [ ]	6. Supporting Information  
@@ -353,7 +353,7 @@
 		-	Testability - effort needed to test to ensure performs as intended
 		-	Usability - effort required to learn, operate, prepare input, and interpret output
 
-## 	3.6 Other requirements
+## 	3.6 Other Requirements
 
 	Whenever a new SRS is contemplated, more than one of the organizational techniques given in 3.7 may be appropriate.  In such cases, organize the specific requirements for multiple hierarchies tailored to the specific needs of the system under specification. 
 
