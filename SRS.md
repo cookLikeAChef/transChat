@@ -50,9 +50,7 @@
 	The following subsections of the Software Requirements Specifications (SRS) document should provide an overview of the entire SRS.   The thing to keep in mind as you write this document is that you are telling what the system must do ?so that designers can ultimately build it.  Do not use this document for design!!!
 
 ## 	1.1 Purpose
-
-	Identify the purpose of this SRS and its intended audience. In this subsection, describe the purpose of the particular SRS and specify the intended audience for the SRS.
-
+	The purpose of this document is to give a detailed description of the requirements for the "Automatic Translator Chatting Program". It will illustrate the purpose and features of the system, the interfaces of the system, what the system will do. It will also explain system constraints. This document is primarily intended to give developers a reference for developing the first version of program.
 ## 	1.2 Scope
 
 	In this subsection:
