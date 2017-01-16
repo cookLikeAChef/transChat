@@ -58,7 +58,7 @@
 
 ## 	1.2 Scope
 
-	In this subsection:
+In this subsection:
 		Identify the software product(s) to be produced by name
 		Explain what the software product(s) will, and, if necessary, will not do
 		Describe the application of the software being specified, including relevant benefits, objectives, and goals
