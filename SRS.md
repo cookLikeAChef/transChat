@@ -2,49 +2,49 @@
 
 - [ ]	1. Introduction
 - [ ]	________1.1. Purpose
-- [ ]		1.2. Scope
-- [ ]		1.3. Definitions, Acronyms, and Abbreviations
-- [ ]		1.4. References
-- [ ]		1.5. Overview
+- [ ]	________1.2. Scope
+- [ ]	________1.3. Definitions, Acronyms, and Abbreviations
+- [ ]	________1.4. References
+- [ ]	________1.5. Overview
 	
 - [ ]	2. The Overall Description
-- [ ]		2.1. Product Perspective
-- [ ]			2.1.1. System Interfaces
-- [ ]			2.1.2. Interfaces
-- [ ]			2.1.3. Hardware Interfaces
-- [ ]			2.1.4. Software Interfaces
-- [ ]			2.1.5. Communications Interfaces
-- [ ]			2.1.6. Memory Constraints
-- [ ]			2.1.7. Operations
-- [ ]			2.1.8. Site Adaptation Requirements
-- [ ]		2.2. Product Functions
-- [ ]		2.3. User Characteristics
-- [ ]		2.4. Constraints
-- [ ]		2.5. Assumptions and Dependencies
-- [ ]		2.6. Apportioning of Requirements
+- [ ]	________2.1. Product Perspective
+- [ ]	________________2.1.1. System Interfaces
+- [ ]	________________2.1.2. Interfaces
+- [ ]	________________2.1.3. Hardware Interfaces
+- [ ]	________________2.1.4. Software Interfaces
+- [ ]	________________2.1.5. Communications Interfaces
+- [ ]	________________2.1.6. Memory Constraints
+- [ ]	________________2.1.7. Operations
+- [ ]	________________2.1.8. Site Adaptation Requirements
+- [ ]	________2.2. Product Functions
+- [ ]	________2.3. User Characteristics
+- [ ]	________2.4. Constraints
+- [ ]	________2.5. Assumptions and Dependencies
+- [ ]	________2.6. Apportioning of Requirements
 
 - [ ]	3. Specific Requirements
-- [ ]		3.1. External interfaces
-- [ ]		3.2. Functions
-- [ ]		3.3. Performance Requirements
-- [ ]		3.4. Logical Database Requirements
-- [ ]		3.5. Design Constraints
-- [ ]			3.5.1. Standards Compliance
-- [ ]		3.6. Software System Attributes
-- [ ]			3.6.1. Reliability
-- [ ]			3.6.2. Availability
-- [ ]			3.6.3. Security
-- [ ]			3.6.4. Maintainability
-- [ ]			3.6.5. Portability
-- [ ]		3.7. Organizing the Specific Requirements
-- [ ]			3.7.1. System Mode
-- [ ]			3.7.2. User Class
-- [ ]			3.7.3. Objects
-- [ ]			3.7.4. Feature
-- [ ]			3.7.5. Stimulus
-- [ ]			3.7.6. Response
-- [ ]			3.7.7. Functional Hierarchy
-- [ ]		3.8. Additional Comments
+- [ ]	________3.1. External interfaces
+- [ ]	________3.2. Functions
+- [ ]	________3.3. Performance Requirements
+- [ ]	________3.4. Logical Database Requirements
+- [ ]	________3.5. Design Constraints
+- [ ]	________________3.5.1. Standards Compliance
+- [ ]	________3.6. Software System Attributes
+- [ ]	________________3.6.1. Reliability
+- [ ]	________________3.6.2. Availability
+- [ ]	________________3.6.3. Security
+- [ ]	________________3.6.4. Maintainability
+- [ ]	________________3.6.5. Portability
+- [ ]	________3.7. Organizing the Specific Requirements
+- [ ]	________________3.7.1. System Mode
+- [ ]	________________3.7.2. User Class
+- [ ]	________________3.7.3. Objects
+- [ ]	________________3.7.4. Feature
+- [ ]	________________3.7.5. Stimulus
+- [ ]	________________3.7.6. Response
+- [ ]	________________3.7.7. Functional Hierarchy
+- [ ]	________3.8. Additional Comments
 
 - [ ]	4. Change Management Process
 
