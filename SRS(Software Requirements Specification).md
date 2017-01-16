@@ -1,5 +1,5 @@
 # Table of Contents
-```
+
 1. Introduction
 	1.1. Purpose
 	1.2. Scope
@@ -51,7 +51,7 @@
 5. Document Approvals
 
 6. Supporting Information
-```
+
 --
 
 # 1. Introduction
