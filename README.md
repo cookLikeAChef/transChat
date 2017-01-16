@@ -1,2 +1,2 @@
 # transChat
-web-based translation chat application using NAVER API(Beta)
+web-based translation chat application using NAVER's machine translation API(Beta)
