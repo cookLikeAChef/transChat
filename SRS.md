@@ -23,26 +23,23 @@
 - [ ]	________2.6. Apportioning of Requirements  
 - [ ]	3. Specific Requirements
 - [ ]	________3.1. External interfaces
-- [ ]	________3.2. Functions
+- [ ]	________________3.1.1. User Interfaces
+- [ ]	________________3.1.2. Hardware interfaces
+- [ ]	________________3.1.3. Software interfaces
+- [ ]	________________3.1.4. Communications interfaces
+- [ ]	________3.2 Use Case Descriptions
+- [ ]	________________3.2.1 Use Case 1
+- [ ]	________________3.2.1 Use Case 2
+- [ ]	________________3.2.1 Use Case n
 - [ ]	________3.3. Performance Requirements
-- [ ]	________3.4. Logical Database Requirements
-- [ ]	________3.5. Design Constraints
-- [ ]	________________3.5.1. Standards Compliance
-- [ ]	________3.6. Software System Attributes
-- [ ]	________________3.6.1. Reliability
-- [ ]	________________3.6.2. Availability
-- [ ]	________________3.6.3. Security
-- [ ]	________________3.6.4. Maintainability
-- [ ]	________________3.6.5. Portability
-- [ ]	________3.7. Organizing the Specific Requirements
-- [ ]	________________3.7.1. System Mode
-- [ ]	________________3.7.2. User Class
-- [ ]	________________3.7.3. Objects
-- [ ]	________________3.7.4. Feature
-- [ ]	________________3.7.5. Stimulus
-- [ ]	________________3.7.6. Response
-- [ ]	________________3.7.7. Functional Hierarchy
-- [ ]	________3.8. Additional Comments  
+- [ ]	________3.4. Design Constraints
+- [ ]	________3.5. Software system attributes
+- [ ]	________________3.5.1. Reliability
+- [ ]	________________3.5.2. Availability
+- [ ]	________________3.5.3. Security
+- [ ]	________________3.5.4. Maintainability
+- [ ]	________________3.5.5. Portability
+- [ ]	________3.6. Other requirements
 - [ ]	4. Change Management Process
 - [ ]	5. Document Approvals  
 - [ ]	6. Supporting Information  
@@ -250,7 +247,7 @@
 		-	Command formats
 		-	End messages
 
-## 	3.2 Functions
+## 	3.2 Use Case Descriptions
 
 	Functional requirements define the fundamental actions that must take place in the software in accepting and processing the inputs and in processing and generating the outputs.  These are generally listed as “shall” statements starting with "The system shall…  
 
@@ -287,49 +284,26 @@
 	An operator shall not have to wait for the transaction to complete.
 
 	(Note:  Numerical limits applied to one specific function are normally specified as part of the processing subparagraph description of that function.)
-
-
-## 	3.4 Logical Database Requirements
-
-	This section specifies the logical requirements for any information that is to be placed into a database.  This may include:
-		-	Types of information used by various functions
-		-	Frequency of use
-		-	Accessing capabilities
-		-	Data entities and their relationships
-		-	Integrity constraints
-		-	Data retention requirements
-
-	If the customer provided you with data models, those can be presented here.  ER diagrams (or static class diagrams) can be useful here to show complex data relationships.  Remember a diagram is worth a thousand words of confusing text.
-
-## 	3.5 Design Constraints
+	
+## 	3.4 Design Constraints
 
 	Specify design constraints that can be imposed by other standards, hardware limitations, etc.
 
-### 		3.5.1  Standards Compliance  
-
-	Specify the requirements derived from existing standards or regulations.  They might include:
-		(1)  Report format
-		(2)  Data naming
-		(3)  Accounting procedures
-		(4)  Audit Tracing
-
-	For example, this could specify the requirement for software to trace processing activity.  Such traces are needed for some applications to meet minimum regulatory or financial standards.  An audit trace requirement may, for example, state that all changes to a payroll database must be recorded in a trace file with before and after values.
-
-## 	3.6 Software System Attributes
+## 	3.5 Software System Attributes
 
 	There are a number of attributes of software that can serve as requirements.  It is important that required attributes by specified so that their achievement can be objectively verified.  The following items provide a partial list of examples.  These are also known as non-functional requirements or quality attributes. 
 
 	These are characteristics the system must possess, but that pervade (or cross-cut) the design.  These requirements have to be testable just like the functional requirements.  Its easy to start philosophizing here, but keep it specific.
 
-### 		3.6.1 Reliability
+### 		3.5.1 Reliability
 
 	Specify the factors required to establish the required reliability of the software system at time of delivery.  If you have MTBF requirements, express them here.  This doesn’t refer to just having a  program that does not crash.  This has a specific engineering meaning.
 
-### 		3.6.2 Availability
+### 		3.5.2 Availability
 
 	Specify the factors required to guarantee a defined availability level for the entire system such as checkpoint, recovery, and restart.  This is somewhat related to reliability.  Some systems run only infrequently on-demand (like MS Word).  Some systems have to run 24/7 (like an e-commerce web site).  The required availability will greatly impact the design.  What are the requirements for system recovery from a failure?  “The system shall allow users to restart the application after failure with the loss of at most 12 characters of input”.   
 
-### 		3.6.3 Security
+### 		3.5.3 Security
 
 	Specify the factors that would protect the software from accidental or malicious access, use, modification, destruction, or disclosure.  Specific requirements in this area could include the need to:
 		-	Utilize certain cryptographic techniques
@@ -338,11 +312,11 @@
 		-	Restrict communications between some areas of the program
 		-	Check data integrity for critical variables
 
-### 		3.6.4 Maintainability
+### 		3.5.4 Maintainability
 
 	Specify attributes of software that relate to the ease of maintenance of the software itself.  There may be some requirement for certain modularity, interfaces, complexity, etc.  Requirements should not be placed here just because they are thought to be good design practices.  If someone else will maintain the system
 
-### 		3.6.5 Portability
+### 		3.5.5 Portability
 
 	Specify attributes of software that relate to the ease of porting the software to other host machines and/or operating systems.  This may include:
 		-	Percentage of components with host-dependent code
@@ -379,41 +353,7 @@
 		-	Testability - effort needed to test to ensure performs as intended
 		-	Usability - effort required to learn, operate, prepare input, and interpret output
 
-	THE FOLLOWING (3.7) is not really a section, it is talking about how to organize requirements you write in section 3.2.   At the end of this template there are a bunch of alternative organizations for section 3.2. Choose the ONE best for the system you are writing the requirements for. 
-	
-## 	3.7 Organizing the Specific Requirements
-
-	For anything but trivial systems the detailed requirements tend to be extensive.  For this reason, it is recommended that careful consideration be given to organizing these in a manner optimal for understanding.  There is no one optimal organization for all systems.  Different classes of systems lend themselves to different organizations of requirements in section 3. Some of these organizations are described in the following subclasses.
-
-### 		3.7.1 System Mode
-
-	Some systems behave quite differently depending on the mode of operation.  When organizing by mode there are two possible outlines.  The choice depends on whether interfaces and performance are dependent on mode.
-
-### 		3.7.2 User Class
-
-	Some systems provide different sets of functions to different classes of users.
-
-### 		3.7.3 Objects
-
-	Objects are real-world entities that have a counterpart within the system.  Associated with each object is a set of attributes and functions.  These functions are also called services, methods, or processes.  Note that sets of objects may share attributes and services.  These are grouped together as classes.
-
-### 		3.7.4 Feature
-
-	A feature is an externally desired service by the system that may require a sequence of inputs to effect the desired result.  Each feature is generally described in as sequence eof stimulus-response pairs.
-
-### 		3.7.5 Stimulus
-
-	Some systems can be best organized by describing their functions in terms of stimuli.
-
-### 		3.7.6 Response
-
-	Some systems can be best organized by describing their functions in support of the generation of a response.
-
-### 		3.7.7 Functional Hierarchy
-
-	When none of he above organizational schemes prove helpful, the overall functionality can be organized into a hierarchy of functions organized by either common inputs, common outputs, or common internal data access.  Data flow diagrams and data dictionaries can be use dot show the relationships between and among the functions and data.
-
-## 	3.8 Additional Comments
+## 	3.6 Other requirements
 
 	Whenever a new SRS is contemplated, more than one of the organizational techniques given in 3.7 may be appropriate.  In such cases, organize the specific requirements for multiple hierarchies tailored to the specific needs of the system under specification. 
 
