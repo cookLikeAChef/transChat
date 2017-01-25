@@ -52,26 +52,15 @@
 ## 	1.1 Purpose
 	The purpose of this document is to give a detailed description of the requirements for the "Automatic Translator Chatting Program". It will illustrate the purpose and features of the system, the interfaces of the system, what the system will do. It will also explain system constraints. This document is primarily intended to give developers a reference for developing the first version of program.
 ## 	1.2 Scope
-
-	In this subsection:
-		Identify the software product(s) to be produced by name
-		Explain what the software product(s) will, and, if necessary, will not do
-		Describe the application of the software being specified, including relevant benefits, objectives, and goals
-		Be consistent with similar statements in higher-level specifications if they exist
-	This should be an executive-level summary.  Do not enumerate the whole requirements list here.
-
+	The "Automatic Translator Chatting Program" is a Chatting Program which gives the translation of the message. This program will be based on Naver translator API or Google translator API. If it uses Naver translator API, then it only gives the translation between Korean and Japanese or Chinese. And can't give the translation between Japanese and Chinese.
+	Once one of the users types a message and sends it to others, the message will go to the NAVER or Google translator server. Then, this program will get the result from the server and desplay it under the original message.
 ## 	1.3 Definitions, Acronyms, and Abbreviations
 
-	Provide the definitions of all terms, acronyms, and abbreviations required to properly interpret the SRS.  This information may be provided by reference to one or more appendices in the SRS or by reference to documents. This information may be provided by reference to an Appendix.
-
+|Term|Definition|
+|---------|:-------------------------------:|
+|API|Application Program Interface|
 ## 	1.4 References
-
-	In this subsection:
-		(1)Provide a complete list of all documents referenced elsewhere in the SRS
-		(2)Identify each document by title, report number (if applicable), date, and publishing organization
-		(3)Specify the sources from which the references can be obtained.
-	This information can be provided by reference to an appendix or to another document.	If your application uses specific protocols or RFC’s, then reference them here so designers know where to find them. 
-
+	[1] IEEE Guide to Software Requirements Specifications (Std 830-1993)
 ## 	1.5 Overview
 
 	In this subsection:
@@ -86,8 +75,7 @@
 
 ## 	2.1  Product Perspective
 
-	Put the product into perspective with other related products.   If the product is independent and totally self-contained, it should be so stated here.  If the SRS defines a product that is a component of a larger system, as frequently occurs, then this subsection relates the requirements of the larger system to functionality of the software and identifies interfaces between that system and the software.  If you are building a real system,compare its similarity and differences to other systems in the marketplace.  If you are doing a research-oriented project, what related research compares to the system you are planning to build.
-
+	Put the product into perspective with other related products.   If the product is independent and totally self-contained, it should be so stated here.  If the SRS defines a product that is a component of a larger system, as frequently occurs, then this subsection relates the requirements of the larger system to functionality of the software and identifies interfaces between that system and the software.  If you are building a real system,compare its similarity and differences to other systems in the marketplace.  If you are doing a research-oriented project, what related research compares to the system you are planning to buil
 	A block diagram showing the major components of the larger system, interconnections, and external interfaces can be helpful.  This is not a design or architecture picture.  It is more to provide context, especially if your system will interact with external actors.  The system you are building should be shown as a black box.  Let the design document present the internals.
 
  The following subsections describe how the software operates inside various constraints.
@@ -157,7 +145,6 @@
 ## 	2.2  Product Functions
 
 	Provide a summary of the major functions that the software will perform. Sometimes the function summary that is necessary for this part can be taken directly from the section of the higher-level specification (if one exists) that allocates particular functions to the software product.
-
 	For clarity:
 		(1)	The functions should be organized in a way that makes the list of functions understandable to the customer or to anyone else reading the document for the first time. 
 		(2)	Textual or graphic methods can be used to show the different functions and their relationships.  Such a diagram is not intended to show a design of a product but simply shows the logical relationships among variables.
