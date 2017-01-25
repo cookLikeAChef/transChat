@@ -1,6 +1,6 @@
 # Table of Contents
 
-- [ ]	1. Introduction
+- [x]	1. Introduction
 - [ ]	________1.1. Purpose
 - [ ]	________1.2. Scope
 - [ ]	________1.3. Definitions, Acronyms, and Abbreviations
@@ -47,7 +47,7 @@
 --
 
 # 1. Introduction
-	The following subsections of the Software Requirements Specifications (SRS) document should provide an overview of the entire SRS.   The thing to keep in mind as you write this document is that you are telling what the system must do ?so that designers can ultimately build it.  Do not use this document for design!!!
+	This is Web-based chat application using translation API(google or NAVER). Users can chat with their language, then system automatically translate the chat text to another users with their language.
 
 ## 	1.1 Purpose
 
