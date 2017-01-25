@@ -56,10 +56,10 @@
 	Once one of the users types a message and sends it to others, the message will go to the NAVER translator server. And then this program will get the result from the server and desplay it under the original message.
 ## 	1.3 Definitions, Acronyms, and Abbreviations
 
-	|Term|Definition|
-	|---------|:-------------------------------:|
-	|NAVER|NAVER is a popular Web portal in South Korea, owned by Naver Corporation.|
-	|API|Application Program Interface|
+|Term|Definition|
+|---------|:-------------------------------:|
+|NAVER|NAVER is a popular Web portal in South Korea, owned by Naver Corporation.|
+|API|Application Program Interface|
 ## 	1.4 References
 	[1] IEEE Guide to Software Requirements Specifications (Std 830-1993)
 ## 	1.5 Overview
