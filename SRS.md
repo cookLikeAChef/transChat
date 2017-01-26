@@ -1,10 +1,10 @@
 # Table of Contents
 
 - [x]	1. Introduction
-- [ ]	________1.1. Purpose
-- [ ]	________1.2. Scope
-- [ ]	________1.3. Definitions, Acronyms, and Abbreviations
-- [ ]	________1.4. References
+- [x]	________1.1. Purpose
+- [x]	________1.2. Scope
+- [x]	________1.3. Definitions, Acronyms, and Abbreviations
+- [x]	________1.4. References
 - [ ]	________1.5. Overview
 - [ ]	2. The Overall Description
 - [ ]	________2.1. Product Perspective
@@ -47,20 +47,35 @@
 --
 
 # 1. Introduction
-	This is Web-based chat application using translation API(google or NAVER). Users can chat with their language, then system automatically translate the chat text to another users with their language.
+
+	Introduction for this document.
 
 ## 	1.1 Purpose
-	The purpose of this document is to give a detailed description of the requirements for the "Automatic Translator Chatting Program". It will illustrate the purpose and features of the system, the interfaces of the system, what the system will do. It will also explain system constraints. This document is primarily intended to give developers a reference for developing the first version of program.
+
+	The purpose of this document is to give a detailed description of the requirements for the "transChat".
+	It will illustrate the purpose and features of the system, the interfaces of the system, what the system will do.
+	It will also explain system constraints.
+	This document is primarily intended to give developers a reference for developing the first version of program.
+
 ## 	1.2 Scope
-	The "Automatic Translator Chatting Program" is a Chatting Program which gives the translation of the message. This program will be based on Naver translator API or Google translator API. If it uses Naver translator API, then it only gives the translation between Korean and Japanese or Chinese. And can't give the translation between Japanese and Chinese.
-	Once one of the users types a message and sends it to others, the message will go to the NAVER or Google translator server. Then, this program will get the result from the server and desplay it under the original message.
+
+	The "transChat" is a web-based chatting application which gives the translation of the message.
+	This application will use translation API(google or NAVER).
+	If it uses Naver translator API, then it only gives the translation between Korean and Japanese or Chinese.
+	And can't give the translation between Japanese and Chinese.
+	Once one of the users types a message and sends it to others, the message will be translated to others under the original message.
+
 ## 	1.3 Definitions, Acronyms, and Abbreviations
 
 |Term|Definition|
 |---------|:-------------------------------:|
 |API|Application Program Interface|
+| | |
+
 ## 	1.4 References
+
 	[1] IEEE Guide to Software Requirements Specifications (Std 830-1993)
+
 ## 	1.5 Overview
 
 	In this subsection:
