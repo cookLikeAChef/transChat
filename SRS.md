@@ -1,4 +1,5 @@
 # Table of Contents
+# 목차
 
 - [x]	1. Introduction
 - [x]	________1.1. Purpose
@@ -47,10 +48,12 @@
 --
 
 # 1. Introduction
+# 1. 소개
 
 	Introduction for this document.
 
 ## 	1.1 Purpose
+##  1.1 목적
 
 	The purpose of this document is to give a detailed description of the requirements for the "transChat".
 	It will illustrate the purpose and features of the system, the interfaces of the system, what the system will do.
@@ -58,14 +61,20 @@
 	This document is primarily intended to give developers a reference for developing the first version of program.
 
 ## 	1.2 Scope
-
+##  1.2 범위
 	The "transChat" is a web-based chatting application which gives the translation of the message.
+	"transChat"은 메세지 번역 기능이 있는 웹 기반의 채팅 어플리케이션이다.
 	This application will use translation API(google or NAVER).
+	이 어플리케이션은 구글 또는 네이버의 번역 API를 사용할 계획이다.
 	If it uses Naver translator API, then it only gives the translation between Korean and Japanese or Chinese.
+	네이버 번역 API를 사용하게 될 경우, 한국어, 일본어, 중국어 간의 번역만을 제공 할 것이다.
 	And can't give the translation between Japanese and Chinese.
+	또한 일본어와 중국어 간의 번역을 제공하지 않는다.
 	Once one of the users types a message and sends it to others, the message will be translated to others under the original message.
+	사용자가 다른 사용자에게 메세지를 보내면, 원 메세지의 아래에 메세지가 번역되어진다.
 
 ## 	1.3 Definitions, Acronyms, and Abbreviations
+##  1.3 정의, 두음문자, 약어
 
 |Term|Definition|
 |---------|:-------------------------------:|
@@ -73,10 +82,12 @@
 | | |
 
 ## 	1.4 References
+##  1.4 참고
 
 	[1] IEEE Guide to Software Requirements Specifications (Std 830-1993)
 
 ## 	1.5 Overview
+##  1.5 개요
 
 	In this subsection:
 		(1)	Describe what the rest of the SRS contains
